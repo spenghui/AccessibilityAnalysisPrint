@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">我的辅助分析打印</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">这是我的辅助服务分析打印APP，使用AccessibilityService查看打印本手机所有应用的事件，便于后续进行手机自动模拟操作。本界面纯粹是为了让我知道该app正常安装，一般来说不用设置启动界面的。\n觉得调试打印信息太多的话，可在accessibility_config.xml里添加android:packageNames=\"com.tencent.mobileqq\"，应用包名可自由替换。</string>
+    <string name="app_description">这是我的辅助服务分析打印APP，使用AccessibilityService查看打印本手机所有应用的事件，便于后续进行手机自动模拟操作，如微信抢红包、QQ自动回复等等。</string>
+
+</resources>

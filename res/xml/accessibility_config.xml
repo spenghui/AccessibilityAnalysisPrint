@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accessibilityEventTypes="typeAllMask"
+    android:accessibilityFeedbackType="feedbackGeneric"
+    android:canRetrieveWindowContent="true"
+    android:notificationTimeout="100"
+    android:description="@string/app_description" 
+    />
+
+<!-- 这是我的注释
+    android:accessibilityEventTypes="typeAllMask"			指定【关注事件类型】为AllMask。其他事件类型如TYPE_VIEW_FOCUSED，TYPE_WINDOW_STATE_CHANGED等
+    android:accessibilityFeedbackType="feedbackGeneric"		指定【事件反馈类型】为Generic。可声音反馈、触觉反馈、视觉反馈等
+    android:canRetrieveWindowContent="true"					指定【可以获取窗口内容】
+    android:notificationTimeout="100"						指定【两个同样类型的辅助事件发给辅助服务的最小时间间隔】
+    android:packageNames="com.tencent.mobileqq"				指定【关注QQ应用发出的事件】。如无此行，则关注所有手机应用发出的事件 => 可用于分析具体手机上的各类事件
+    														注意：如果写的是android:packageNames=""，则不关注任何事件
+	android:description="@string/hello_world"				设置【本应用描述】。这里随便设置的哈
+-->
